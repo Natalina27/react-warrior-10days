@@ -12,6 +12,11 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1YZpghZ7wml12U1AiPU63IcTCdA" />
@@ -67,7 +72,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583160083380</updated>
-      <workItem from="1583160084817" duration="3684000" />
+      <workItem from="1583160084817" duration="4440000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -76,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583161775435</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="day1 - components tree">
+      <created>1583164832630</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583164832630</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +107,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh-pages added" />
-    <option name="LAST_COMMIT_MESSAGE" value="gh-pages added" />
+    <MESSAGE value="day1 - components tree" />
+    <option name="LAST_COMMIT_MESSAGE" value="day1 - components tree" />
   </component>
 </project>

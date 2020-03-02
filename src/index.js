@@ -17,20 +17,35 @@ const movie = {
         );
     }
 
-    function MovieItem(props) {
-    console.log('MovieItem props= ', props);
-    const { data: { title, vote_average, image}} = props; //destruction obj
+//     function MovieItem(props) { //parent of Image
+//     console.log('MovieItem props= ', props);
+//     const { data: { title, vote_average, image}} = props; //destruction obj
+//
+//     return(
+//         <div>
+//             <Image src={image} alt={title}/>
+//             <p>{title}</p>
+//             <p>{vote_average}</p>
+//         </div>
+//     );
+// }
 
-    return(
-        <div>
-            <Image src={image} alt={title}/>
-            <p>{title}</p>
-            <p>{vote_average}</p>
-        </div>
-    );
+
+class MovieItem extends React.Component{ //MovieItem = new React.Component()
+        render(){
+            const { data: { title, vote_average, image}} = this.props; //destruction obj
+            console.log('this =  ', this);
+            return(
+                <div>
+                    <Image src={image} alt={title}/>
+                    <p>{title}</p>
+                    <p>{vote_average}</p>
+                </div>
+            );
+        }
 }
 
-function App(){
+function App(){ //parent of MovieItem
     return(
         <div>
             <MovieItem data={movie}/>
