@@ -33,9 +33,9 @@ const movie = {
 
 class MovieItem extends React.Component{ //MovieItem = new React.Component()
         constructor(){
-            super()
+            super();
             this.state = {
-                show: true
+                show: false
             };
         }
         render(){
@@ -46,6 +46,14 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                     <Image src={image} alt={title}/>
                     <p>{title}</p>
                     <p>{vote_average}</p>
+                    <button type="button"
+                            onClick={()=> {
+                            console.log('show');
+                            this.setState({
+                                show: true
+                            });
+
+                        }}>SHOW</button>
                     {this.state.show ? <p>{overview}</p> : null}
                 </div>
             );
