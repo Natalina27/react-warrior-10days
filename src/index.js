@@ -32,14 +32,21 @@ const movie = {
 
 
 class MovieItem extends React.Component{ //MovieItem = new React.Component()
+        constructor(){
+            super()
+            this.state = {
+                show: true
+            };
+        }
         render(){
-            const { data: { title, vote_average, image}} = this.props; //destruction obj
-            console.log('this =  ', this);
+            const { data: { title, vote_average, image, overview}} = this.props; //destruction obj
+            console.log(' state =  ', this.state);
             return(
                 <div>
                     <Image src={image} alt={title}/>
                     <p>{title}</p>
                     <p>{vote_average}</p>
+                    {this.state.show ? <p>{overview}</p> : null}
                 </div>
             );
         }
