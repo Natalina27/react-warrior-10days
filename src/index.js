@@ -54,6 +54,15 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                             });
 
                         }}>SHOW</button>
+                    <button type="button"
+                            onClick={()=> {
+                                console.log('show');
+                                this.setState({
+                                    show: false
+                                });
+
+                            }}>HIDE</button>
+
                     {this.state.show ? <p>{overview}</p> : null}
                 </div>
             );

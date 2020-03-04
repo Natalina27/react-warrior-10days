@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +71,7 @@
       <updated>1583160083380</updated>
       <workItem from="1583160084817" duration="4557000" />
       <workItem from="1583265242217" duration="926000" />
-      <workItem from="1583273751723" duration="978000" />
+      <workItem from="1583273751723" duration="1164000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -111,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583273615190</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="day2 Display changes setState">
+      <created>1583277629391</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1583277629391</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -133,6 +137,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gh-pages added" />
     <MESSAGE value="day1 - components tree" />
-    <option name="LAST_COMMIT_MESSAGE" value="day1 - components tree" />
+    <MESSAGE value="day2 Display changes" />
+    <MESSAGE value="day2 Display changes setState" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2 Display changes setState" />
   </component>
 </project>
