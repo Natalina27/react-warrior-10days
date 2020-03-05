@@ -38,6 +38,14 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                 show: false
             };
         }
+
+        toggleOverview = ()=> {
+            console.log('show');
+            this.setState({
+                show: !this.state.show
+            });
+        };
+
         render(){
             const { data: { title, vote_average, image, overview}} = this.props; //destruction obj
             console.log(' state =  ', this.state);
@@ -47,23 +55,10 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                     <p>{title}</p>
                     <p>{vote_average}</p>
                     <button type="button"
-                            onClick={()=> {
-                            console.log('show');
-                            this.setState({
-                                show: true
-                            });
-
-                        }}>SHOW</button>
-                    <button type="button"
-                            onClick={()=> {
-                                console.log('show');
-                                this.setState({
-                                    show: false
-                                });
-
-                            }}>HIDE</button>
-
-                    {this.state.show ? <p>{overview}</p> : null}
+                            onClick={this.toggleOverview}
+                    >{this.state.show ? 'HIDE' : 'SHOW'}
+                    </button>
+                    { this.state.show ? <p>{overview}</p> : null}
                 </div>
             );
         }
