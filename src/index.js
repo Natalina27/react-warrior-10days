@@ -49,6 +49,8 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
         render(){
             const { data: { title, vote_average, image, overview}} = this.props; //destruction obj
             console.log(' state =  ', this.state);
+            console.log(this);
+
             return(
                 <div>
                     <Image src={image} alt={title}/>
