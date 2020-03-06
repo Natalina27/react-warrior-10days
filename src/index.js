@@ -56,9 +56,12 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                     <Image src={image} alt={title}/>
                     <p>{title}</p>
                     <p>{vote_average}</p>
+                    <button type="button">
+                        LIKE
+                    </button>
                     <button type="button"
-                            onClick={this.toggleOverview}
-                    >{this.state.show ? 'HIDE' : 'SHOW'}
+                            onClick={this.toggleOverview}>
+                        {this.state.show ? 'HIDE' : 'SHOW'}
                     </button>
                     { this.state.show ? <p>{overview}</p> : null}
                 </div>
