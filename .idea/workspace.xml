@@ -74,6 +74,7 @@
       <workItem from="1583273751723" duration="1164000" />
       <workItem from="1583354192148" duration="162000" />
       <workItem from="1583417581785" duration="1332000" />
+      <workItem from="1583509324993" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -145,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583420732935</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="day2 added button LIKE">
+      <created>1583509490713</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1583509490713</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -170,6 +178,7 @@
     <MESSAGE value="day2 Display changes" />
     <MESSAGE value="day2 Display changes setState&#10;button hide" />
     <MESSAGE value="day2 Display changes setState" />
-    <option name="LAST_COMMIT_MESSAGE" value="day2 Display changes setState" />
+    <MESSAGE value="day2 added button LIKE" />
+    <option name="LAST_COMMIT_MESSAGE" value="day2 added button LIKE" />
   </component>
 </project>
