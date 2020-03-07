@@ -35,7 +35,8 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
         constructor(){
             super();
             this.state = {
-                show: false
+                show: false,
+                like: false
             };
         }
 
@@ -56,13 +57,13 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
                     <Image src={image} alt={title}/>
                     <p>{title}</p>
                     <p>{vote_average}</p>
-                    <button type="button">
-                        LIKE
-                    </button>
-                    <button type="button"
-                            onClick={this.toggleOverview}>
-                        {this.state.show ? 'HIDE' : 'SHOW'}
-                    </button>
+                    <div>
+                        <button type="button"
+                                onClick={this.toggleOverview}>
+                            {this.state.show ? 'HIDE' : 'SHOW'}
+                        </button>
+                        <button type="button">LIKE</button>
+                    </div>
                     { this.state.show ? <p>{overview}</p> : null}
                 </div>
             );
