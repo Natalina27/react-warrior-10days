@@ -1,7 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const movie = {
+
+
+    const movie = {
     title: "Avengers: Infinity War",
     vote_average: 8.5,
     image: "http://image.tmdb.org/t/p/w500/bOGkgRGdhrBYJSLpXaxhXVstddV.jpg",
@@ -13,25 +15,12 @@ const movie = {
         console.log('Image props = ', props);
 
         return(
-            <img src={props.src} alt={props.alt}/>
+            <img src={props.src} alt={props.alt} className="image"/>
         );
     }
 
-//     function MovieItem(props) { //parent of Image
-//     console.log('MovieItem props= ', props);
-//     const { data: { title, vote_average, image}} = props; //destruction obj
-//
-//     return(
-//         <div>
-//             <Image src={image} alt={title}/>
-//             <p>{title}</p>
-//             <p>{vote_average}</p>
-//         </div>
-//     );
-// }
 
-
-class MovieItem extends React.Component{ //MovieItem = new React.Component()
+    class MovieItem extends React.Component{ //MovieItem = new React.Component()
         constructor(){
             super();
             this.state = {
@@ -47,6 +36,13 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
             });
         };
 
+        handleLike = () => {
+            this.setState({
+                like: !this.state.like
+
+            });
+        };
+
         render(){
             const { data: { title, vote_average, image, overview}} = this.props; //destruction obj
             console.log(' state =  ', this.state);
@@ -54,15 +50,18 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
 
             return(
                 <div>
-                    <Image src={image} alt={title}/>
+                    <Image src={image} alt={title} />
                     <p>{title}</p>
                     <p>{vote_average}</p>
                     <div>
                         <button type="button"
-                                onClick={this.toggleOverview}>
-                            {this.state.show ? 'HIDE' : 'SHOW'}
-                        </button>
-                        <button type="button">LIKE</button>
+                                onClick={this.toggleOverview}
+                        >{this.state.show ? 'HIDE' : 'SHOW'}</button>
+                        <button
+                            type="button"
+                            onClick={this.handleLike}
+                            style={{background: this.state.like ? 'blue':'white'}}
+                        >LIKE</button>
                     </div>
                     { this.state.show ? <p>{overview}</p> : null}
                 </div>
@@ -70,7 +69,7 @@ class MovieItem extends React.Component{ //MovieItem = new React.Component()
         }
 }
 
-function App(){ //parent of MovieItem
+        function App(){ //parent of MovieItem
     return(
         <div>
             <MovieItem data={movie}/>
