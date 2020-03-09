@@ -1,5 +1,5 @@
 import React from 'react';
-import moviesData from '/moviesData';
+import { moviesData } from '/Users/natalyamyunster/Desktop/REACT_REDUX/react-warrior-10days/src/moviesData.js';
 
 
 
@@ -8,9 +8,8 @@ import moviesData from '/moviesData';
 
 console.log(moviesData);
 
-let title = "Hello ReactWarriors";
 function App() {
-  return <div>{title}</div>;
+  return <div>{moviesData[0].title}</div>;
 }
 
 export default App;
