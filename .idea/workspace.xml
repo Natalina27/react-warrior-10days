@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="day 3 cra&#10;added moviesData.js from https://github.com/ReactWarriors/reactwarriors-master-class/blob/master/src/moviesData.js">
+    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.jsx" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +95,8 @@
       <workItem from="1583661583669" duration="3759000" />
       <workItem from="1583772752500" duration="964000" />
       <workItem from="1583775010147" duration="1815000" />
-      <workItem from="1583779060119" duration="341000" />
+      <workItem from="1583779060119" duration="364000" />
+      <workItem from="1583850066806" duration="292000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -222,7 +224,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583779086671</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="day 3 cra&#10;added moviesData.js from https://github.com/ReactWarriors/reactwarriors-master-class/blob/master/src/moviesData.js">
+      <created>1583783239650</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583783239650</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
