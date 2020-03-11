@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.jsx" afterDir="false" />
-    </list>
+    <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +93,7 @@
       <workItem from="1583772752500" duration="964000" />
       <workItem from="1583775010147" duration="1815000" />
       <workItem from="1583779060119" duration="364000" />
-      <workItem from="1583850066806" duration="292000" />
+      <workItem from="1583850066806" duration="468000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -231,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583783239650</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="day 3 cra&#10;added Class App">
+      <created>1583850532130</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1583850532130</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -261,6 +265,7 @@
     <MESSAGE value="day 3 cra" />
     <MESSAGE value="day 3 cra&#10;added moviesData.js" />
     <MESSAGE value="day 3 cra&#10;added moviesData.js from https://github.com/ReactWarriors/reactwarriors-master-class/blob/master/src/moviesData.js" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 cra&#10;added moviesData.js from https://github.com/ReactWarriors/reactwarriors-master-class/blob/master/src/moviesData.js" />
+    <MESSAGE value="day 3 cra&#10;added Class App" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 cra&#10;added Class App" />
   </component>
 </project>
