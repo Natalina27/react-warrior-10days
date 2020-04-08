@@ -1,11 +1,13 @@
 import React from 'react';
-import { moviesData } from '/Users/natalyamyunster/Desktop/REACT_REDUX/react-warrior-10days/src/moviesData.js';
-
-
+import {moviesData} from "../../moviesData";
 
 console.log(moviesData);
 
 class App extends React.Component{
+
+  state = {
+    movies: moviesData
+  };
   render() {
     console.log(this);
     return <div>{moviesData[0].title}</div>;
