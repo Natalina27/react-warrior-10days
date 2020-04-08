@@ -100,7 +100,7 @@
       <workItem from="1583953386764" duration="240000" />
       <workItem from="1584210914862" duration="10000" />
       <workItem from="1586280342961" duration="440000" />
-      <workItem from="1586344035414" duration="262000" />
+      <workItem from="1586344035414" duration="1250000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -249,7 +249,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583953604445</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="day 3 cra&#10;added state with moviesData">
+      <created>1586345266352</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1586345266352</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,6 +287,7 @@
     <MESSAGE value="day 3 cra&#10;added moviesData.js" />
     <MESSAGE value="day 3 cra&#10;added moviesData.js from https://github.com/ReactWarriors/reactwarriors-master-class/blob/master/src/moviesData.js" />
     <MESSAGE value="day 3 cra&#10;added Class App" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 3 cra&#10;added Class App" />
+    <MESSAGE value="day 3 cra&#10;added state with moviesData" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 3 cra&#10;added state with moviesData" />
   </component>
 </project>

@@ -6,11 +6,15 @@ console.log(moviesData);
 class App extends React.Component{
 
   state = {
-    movies: moviesData
+    movies: moviesData,
   };
   render() {
     console.log(this);
-    return <div>{moviesData[0].title}</div>;
+    return(
+        <div>
+          {this.state.movies.map((movie) => <p>{movie.title}</p>)}
+            </div>
+        )
   }
 }
 
