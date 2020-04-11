@@ -8,19 +8,26 @@ class App extends React.Component {
     state = {
         movies: moviesData,
     };
-    onDeleteMovie = () => {
-        this.state.movies.filter((item) => { item.id !== movies.id})
+    onDeleteMovie = (id) => {
+        let newArray = [...this.state.movies];
+        newArray.filter(
+            (item) => this.state.movies.id !== item.id);
+        this.setState(newArray);
     };
 
     render() {
         console.log(this);
+
+        const { movies } = this.state;
+
+
         return (
             <div>
-                {this.state.movies.map((movie) => {
+                { movies.map((movie) => {
                             return (
                                 <div>
                                     <p>{movie.title}</p>
-                                    <button> DELETE MOVIE</button>
+                                    <button onClick={()=>this.onDeleteMovie}> DELETE MOVIE</button>
                                 </div>
                             )})
                 }

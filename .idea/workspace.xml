@@ -102,7 +102,7 @@
       <workItem from="1586280342961" duration="440000" />
       <workItem from="1586344035414" duration="2036000" />
       <workItem from="1586368779862" duration="941000" />
-      <workItem from="1586623921730" duration="592000" />
+      <workItem from="1586623921730" duration="3089000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -293,7 +293,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586369871306</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="day 4 delete movies">
+      <created>1586624672290</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1586624672290</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +334,7 @@
     <MESSAGE value="day 3 cra&#10;added state with moviesData" />
     <MESSAGE value="day 3 cra&#10;added map method for movies list rendering" />
     <MESSAGE value="day 4 reconciliation &#10;added Delete movie button" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 4 reconciliation &#10;added Delete movie button" />
+    <MESSAGE value="day 4 delete movies" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 4 delete movies" />
   </component>
 </project>
