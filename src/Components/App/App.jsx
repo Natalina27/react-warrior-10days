@@ -8,17 +8,25 @@ class App extends React.Component {
     state = {
         movies: moviesData,
     };
-    onDeleteMovie = (id) => {
+
+
+    onDeleteMovie = (movie) => {
         let newArray = [...this.state.movies];
+        console.log(newArray);
+
         newArray.filter(
-            (item) => this.state.movies.id !== item.id);
+            (item) => item.id !== movie);
         this.setState(newArray);
+        console.log(newArray);
     };
 
     render() {
         console.log(this);
 
+
         const { movies } = this.state;
+
+        console.log(movies);
 
 
         return (
@@ -27,7 +35,7 @@ class App extends React.Component {
                             return (
                                 <div>
                                     <p>{movie.title}</p>
-                                    <button onClick={()=>this.onDeleteMovie}> DELETE MOVIE</button>
+                                    <button onClick={()=>this.onDeleteMovie(movie.id)}> DELETE MOVIE</button>
                                 </div>
                             )})
                 }
