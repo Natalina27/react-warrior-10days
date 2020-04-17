@@ -103,7 +103,8 @@
       <workItem from="1586344035414" duration="2036000" />
       <workItem from="1586368779862" duration="941000" />
       <workItem from="1586623921730" duration="3204000" />
-      <workItem from="1587116968313" duration="2901000" />
+      <workItem from="1587116968313" duration="2912000" />
+      <workItem from="1587139947746" duration="1332000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -308,7 +309,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586627760429</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="day 4 delete movies">
+      <created>1587137673644</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1587137673644</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
