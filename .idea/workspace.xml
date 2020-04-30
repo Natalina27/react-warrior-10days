@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="00205287-b757-4035-8cd9-96879ee029ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Components/MovieItem/MovieItem.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Components/MovieItem/MovieItem.module.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Components/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/Components/App/App.jsx" afterDir="false" />
     </list>
@@ -15,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -32,6 +35,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -104,7 +108,9 @@
       <workItem from="1586368779862" duration="941000" />
       <workItem from="1586623921730" duration="3204000" />
       <workItem from="1587116968313" duration="2912000" />
-      <workItem from="1587139947746" duration="1332000" />
+      <workItem from="1587139947746" duration="1638000" />
+      <workItem from="1587202294103" duration="2000" />
+      <workItem from="1588241842515" duration="1464000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -316,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1587137673644</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="day 4 delete movies">
+      <created>1587152355965</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587152355966</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

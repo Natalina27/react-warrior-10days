@@ -1,7 +1,8 @@
 import React from 'react';
 import {moviesData} from "../../moviesData";
+import MovieItem from "../MovieItem/MovieItem";
 
-console.log(moviesData);
+console.log('moviesData: ', moviesData);
 
 class App extends React.Component {
 
@@ -17,26 +18,23 @@ class App extends React.Component {
     };
 
     render() {
-        console.log(this);
-
+        console.log('this: ', this);
 
         const { movies } = this.state;
 
-        console.log(movies);
+        console.log('movies: ', movies);
 
 
         return (
             <div>
-                { movies.map((movie) => {
-                            return (
-                                <div>
-                                    <p>{movie.title}</p>
-                                    <button onClick={this.onDeleteMovie}> DELETE MOVIE</button>
-                                    {/*<button onClick={()=> console.log(movie.id)}> DELETE MOVIE</button>*/}
-                                </div>
-                            )})
-                }
+                {movies.map(movie => {
+                    return  <MovieItem key={movie.id}
+                                       movie={movie}
+                                       onDeleteMovie={this.onDeleteMovie}
+                    />
+                })}
             </div>
+
         )
     }
 }
