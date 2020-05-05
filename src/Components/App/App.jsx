@@ -18,24 +18,30 @@ class App extends React.Component {
     };
 
     render() {
-        console.log('this: ', this);
-
         const { movies } = this.state;
 
-        console.log('movies: ', movies);
-
-
         return (
-            <div>
-                {movies.map(movie => {
-                    return  <MovieItem key={movie.id}
-                                       movie={movie}
-                                       onDeleteMovie={this.onDeleteMovie}
-                    />
-                })}
+            <div className="container">
+                <div className="row">
+                    <div className="col-9">
+                        <div className="row">
+                        {movies.map(movie => {
+                            return (
+                                <div className="col-6" key={movie.id}>
+                                    <MovieItem movie={movie}
+                                               onDeleteMovie={this.onDeleteMovie}
+                                    />
+                                </div>
+                            );
+                        })}
+                    </div>
+                 </div>
+                    <div className="col-3">
+                        <p>Will Watch: 0</p>
+                    </div>
+                </div>
             </div>
-
-        )
+        );
     }
 }
 
