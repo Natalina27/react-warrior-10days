@@ -1,6 +1,7 @@
 import React from 'react';
 import {moviesData} from "../../moviesData";
 import MovieItem from "../MovieItem/MovieItem";
+import 'bootstrap/dist/css/bootstrap.css';
 
 console.log('moviesData: ', moviesData);
 
@@ -27,7 +28,7 @@ class App extends React.Component {
                         <div className="row">
                         {movies.map(movie => {
                             return (
-                                <div className="col-6" key={movie.id}>
+                                <div className="col-6 mb-4" key={movie.id}>
                                     <MovieItem movie={movie}
                                                onDeleteMovie={this.onDeleteMovie}
                                     />
