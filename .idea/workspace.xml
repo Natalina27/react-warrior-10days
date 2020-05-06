@@ -109,7 +109,8 @@
       <workItem from="1587139947746" duration="1638000" />
       <workItem from="1587202294103" duration="2000" />
       <workItem from="1588241842515" duration="1767000" />
-      <workItem from="1588694803509" duration="4621000" />
+      <workItem from="1588694803509" duration="4708000" />
+      <workItem from="1588782915387" duration="225000" />
     </task>
     <task id="LOCAL-00001" summary="gh-pages added">
       <created>1583161775435</created>
@@ -356,7 +357,14 @@
       <option name="project" value="LOCAL" />
       <updated>1588698935490</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="day 5 styles with bootstrap - import bootstrap">
+      <created>1588750706199</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1588750706200</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -393,15 +401,15 @@
     <MESSAGE value="day 4 delete movies" />
     <MESSAGE value="day 4 delete movies: new component MovieItem" />
     <MESSAGE value="day 5 styles with bootstrap" />
-    <option name="LAST_COMMIT_MESSAGE" value="day 5 styles with bootstrap" />
+    <MESSAGE value="day 5 styles with bootstrap - import bootstrap" />
+    <option name="LAST_COMMIT_MESSAGE" value="day 5 styles with bootstrap - import bootstrap" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/Components/App/App.jsx</url>
-          <line>45</line>
-          <properties lambdaOrdinal="-1" />
+          <line>46</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

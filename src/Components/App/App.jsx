@@ -3,12 +3,13 @@ import {moviesData} from "../../moviesData";
 import MovieItem from "../MovieItem/MovieItem";
 import 'bootstrap/dist/css/bootstrap.css';
 
-console.log('moviesData: ', moviesData);
+//UI = fn(state, props)
 
 class App extends React.Component {
 
     state = {
         movies: moviesData,
+        moviesWillWatch: []
     };
 
 
@@ -38,7 +39,7 @@ class App extends React.Component {
                     </div>
                  </div>
                     <div className="col-3">
-                        <p>Will Watch: 0</p>
+                        <p>Will Watch: {this.state.moviesWillWatch.length}</p>
                     </div>
                 </div>
             </div>
